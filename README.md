@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Bienvenida - Instituto Educativo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #ffffff);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      text-align: center;
+      background: #fff;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      max-width: 600px;
+      width: 90%;
+    }
+
+    .logo {
+      width: 180px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      color: #00695c;
+      margin-bottom: 15px;
+    }
+
+    p {
+      color: #444;
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .btn-classroom {
+      display: inline-block;
+      padding: 15px 25px;
+      background-color: #3f51b5;
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
+
+    .btn-classroom:hover {
+      background-color: #303f9f;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="C:\Users\gonet\Downloads\WhatsApp Image 2025-07-25 at 6.13.11 PM.jpeg" alt="Logotipo de la institución" class="logo">
+    
+    <h1>¡Bienvenido a la FySBB de Arleta!</h1>
+    <p>Nos alegra tenerte con nosotros. A través de nuestra plataforma digital podrás acceder a tus clases, materiales y mucho más.</p>
+    
+    <a href="https://classroom.google.com/" target="_blank" class="btn-classroom">Acceder a Google Classroom</a>
+  </div>
+
+</body>
+</html>
